@@ -1,0 +1,97 @@
+
+    
+    
+      
+    <!DOCTYPE html>
+    <html lang="fr">
+      <head>
+        
+        <meta charset="UTF-4">
+        <title>Inscription</title>
+        <style>
+          body {
+            background-image: url('../assets/image/bf.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 107vh;
+          }
+        </style>
+      </head>
+     
+      <body>
+       
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="text-center">Inscription</h4>
+                </div>
+                <div class="card-body">
+                  <form action="#" method="POST">
+                    <div class="form-group">
+                      <label for="prenom">ID :</label>
+                      <input type="text" class="form-control" id="id" name="id" required>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                      <label for="nom">Nom :</label>
+                      <input type="text" class="form-control" id="nom" name="nom" >
+                    </div>
+                    <div class="form-group">
+                      <label for="prenom">Prénom :</label>
+                      <input type="text" class="form-control" id="prenom" name="prenom" >
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Adresse e-mail :</label>
+                      <input type="email" class="form-control" id="email" name="email" >
+                    </div>
+                    <div class="form-group">
+                      <label for="periode">période d'embauche :</label>
+                      <input type="text" class="form-control" id="periode" name="periode" >
+                    </div>
+                    <div class="form-group">
+                      <label for="téléphone">téléphone :</label>
+                      <input type="text" class="form-control" id="téléphone" name="téléphone" >
+                    </div>
+                    <div class="form-group">
+                      
+                      <label for="password">Choisir un mot de passe :</label>
+                      <input type="password" class="form-control" id="password" name="password" >
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Confirmer votre mot de passe :</label>
+                      <input type="password" class="form-control" id="password" name="password" >
+                    </div>
+                    <fieldset class="row mb-3">
+                      <legend   style="text-align:left;" class=""  >choisir votre poste :</legend>
+                      <div class="col-sm-10">
+                        <div  class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label"  for="gridRadios1">Manager</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">Team Leader</label>
+                        </div>
+                      </div>
+                    </fieldset>
+                    
+                    <div class="form-group">
+                      <div class="pt-1 mb-4">
+                        <button class="btn btn-dark btn-lg btn-block" type="button" routerLink="/parking">Connexion</button>
+                      </div>
+                    </div>
+                  
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+    
+   
